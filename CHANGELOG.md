@@ -100,6 +100,10 @@ Initial benchmarks (Intel i7-9750H):
 
 ## [Unreleased]
 
+## [0.1.0] - 2025-10-26
+
+## [0.1.0] - 2025-10-26
+
 ### Planned Features
 
 - QUIC transport support
