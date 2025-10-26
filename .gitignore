@@ -1,0 +1,44 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# OpenShare specific
+.openshare/
+*.manifest.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+/test_output/
+/temp/
+*.test
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Build artifacts
+*.deb
+*.rpm
+*.dmg
+*.msi
+
+# Documentation build
+/target/doc/
+book/
+
+# Temporary files
+*.tmp
+*.temp
