@@ -1,0 +1,21 @@
+[workspace]
+members = [
+  "crates/openshare-core",
+  "crates/storage",
+  "crates/mdns-core",
+  "crates/openshare-cli",
+  "crates/transport-quic",
+]
+resolver = "2"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+thiserror = "1"
+serde = { version = "1", features = ["derive"] }
+tracing = "0.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
